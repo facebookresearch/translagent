@@ -15,7 +15,7 @@ Dependencies
 * CUDA (we recommend using the latest version. The version 8.0 was used in all our experiments.)
 
 ### Related code
-* For preprocessing, we used the scripts from [Moses](https://github.com/moses-smt/mosesdecoder "Moses") and [Subword-NMT](https://github.com/rsennrich/subword-nmt "Subword-NMT").
+* For preprocessing, we used scripts from [Moses](https://github.com/moses-smt/mosesdecoder "Moses") and [Subword-NMT](https://github.com/rsennrich/subword-nmt "Subword-NMT").
 
 Downloading Datasets
 ------------------
@@ -78,6 +78,11 @@ $ python sentence/nmt.py --dataset <DATASET> --task <TASK> --src <SRC> --trg <TR
 ```
 
 where `<DATASET>` is `multi30k` or `coco`, and `<TASK>` is either 1 or 2 (only applicable for Multi30k).
+
+Dataset & Related Code Attribution
+------------------
+* Moses is licensed under LGPL, and Subword-NMT is licensed under MIT License.
+* MS COCO and Multi30k are licensed under Creative Commons.
 
 Citation
 ------------------
